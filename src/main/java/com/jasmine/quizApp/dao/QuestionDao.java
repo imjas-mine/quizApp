@@ -12,4 +12,5 @@ import com.jasmine.quizApp.model.Question;
 @Repository
 public interface QuestionDao extends JpaRepository<Question,Integer> {
 	List<Question> findByCategory(String category);
+	
 }
